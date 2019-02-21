@@ -1,0 +1,86 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable HeatClinic is: HeatClinic</td></tr>
+<tr><td>INFO: The value found with Environment Module variable heatclinic is: heatclinic</td></tr>
+<tr><td>The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71</td></tr>
+<tr><td>INFO: Clients Found: [HeatClinic]
+</td></tr>
+<tr><td>INFO: Modules Selected: [heatclinic]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+</td></tr>
+<tr><td>INFO: Reading data from Excel file</td></tr>
+<tr><td>INFO: Opening url http://10.10.10.232:8080/</td></tr>
+<tr><td>INFO: Maximizing window </td></tr>
+<tr><td>INFO: Clicking login link </td></tr>
+<tr><td>INFO: Entering data in email field rajat.gupta@atmecs.com</td></tr>
+<tr><td>INFO: Entering data in password field </td></tr>
+<tr><td>INFO: Clicking login button</td></tr>
+<tr><td>PASS :  Verifying username : ACTUAL : Rajat 	EXPECTED :Rajat</td></tr>
+<tr><td>PASS : Account Verified</td></tr>
+<tr><td>Clicking Account Name Rajat</td></tr>
+<tr><td>Clicking on Submit button in Account Information</td></tr>
+<tr><td>Verifying account updation</td></tr>
+<tr><td>PASS :  Verifying Account Updation : ACTUAL : Account successfully updated 	EXPECTED :Account successfully updated</td></tr>
+<tr><td>PASS : Account updated</td></tr>
+<tr><td>Clicking on Hot Sauces Tab</td></tr>
+<tr><td>Clicking on Sauce</td></tr>
+<tr><td>Clicking on buy button</td></tr>
+<tr><td>Checking cart item</td></tr>
+<tr><td>Verifying item in cart</td></tr>
+<tr><td>PASS : Cart Item : ACTUAL : Roasted Garlic Hot Sauce 	EXPECTED :Roasted Garlic Hot Sauce</td></tr>
+<tr><td>Removing Cart Item</td></tr>
+<tr><td>Item Removed Successfully</td></tr>
+<tr><td>Closeing Cart Window</td></tr>
+<tr><td>Clicking on logout button</td></tr>
+<tr><td>Logged out successfully</td></tr>
+<tr><td>INFO: Reading data from Excel file</td></tr>
+<tr><td>INFO: Opening url http://10.10.10.232:8080/</td></tr>
+<tr><td>INFO: Maximizing window </td></tr>
+<tr><td>INFO: Clicking login link </td></tr>
+<tr><td>INFO: Entering invalid email ID in email field tempuser@atmecs.com</td></tr>
+<tr><td>INFO: Entering data in password field </td></tr>
+<tr><td>INFO: Clicking login button</td></tr>
+<tr><td>FAIL : Error occured capturing screenshot, refer to error tab for more details</td></tr>
+<tr><td>IMG : 053564eb-27ed-49dd-83d0-5717314c35d3</td></tr>
+<tr><td>Reading data from Register data excel file</td></tr>
+<tr><td>OpeningURLhttp://10.10.10.232:8080/</td></tr>
+<tr><td>INFO: Maximizing window</td></tr>
+<tr><td>Clicking Register link</td></tr>
+<tr><td>Entering data in Email fieldrajat.gupta@atmecs.com</td></tr>
+<tr><td>Entering data in First Name fieldRajat</td></tr>
+<tr><td>Entering data in Last Name fieldGupta</td></tr>
+<tr><td>Entering data in Password fieldabcd</td></tr>
+<tr><td>Entering data in Confirm Password fieldabcd</td></tr>
+<tr><td>Click to register the user</td></tr>
+<tr><td>INFO: Maximizing window </td></tr>
+<tr><td>Clicking on the Home Tab</td></tr>
+<tr><td>Clicking on logout button</td></tr>
+<tr><td>Logged out successfully</td></tr>
+</table>

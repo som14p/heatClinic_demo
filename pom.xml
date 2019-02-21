@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.atmecs</groupId>
+	<artifactId>web-ui-automation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>web-ui</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<exec.maven.plugin>1.4.0</exec.maven.plugin>
+		<maven.compiler.plugin>3.5</maven.compiler.plugin>
+		<falcon.ui.version>0.1.0<!-- 0.1.1 --></falcon.ui.version>
+		<release.repo.url>http://10.10.10.150:8081/nexus/content/repositories/falcon<!-- http://55.55.53.41:8081/nexus/content/repositories/dev/ --><!-- http://10.10.10.150:8081/nexus/content/repositories/falcon/ --><!-- ${facon.release.url} --></release.repo.url>
+		<java.source.version>1.8</java.source.version>
+		<java.target.version>1.8</java.target.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<profiles>
+		<profile>
+			<id>release</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+			
+			  <repository>
+      <id>forplay-legacy</id>
+      <url>http://forplay.googlecode.com/svn/mavenrepo</url>
+    </repository>
+
+				<repository>
+					<id>falcon</id>
+					<name>atmecs falcon</name>
+					<!-- <id>dev</id> -->
+					<url>${release.repo.url}</url>
+					<releases>
+					</releases>
+				</repository>
+
+			</repositories>
+			<dependencies>
+				<dependency>
+					<groupId>com.atmecs.falcon.automation</groupId>
+					<artifactId>falcon-ui</artifactId>
+					<version>${falcon.ui.version}</version>
+				</dependency>
+			</dependencies>
+		</profile>
+
+
+	</profiles>
+
+	<dependencies>
+		<!-- <dependency> <groupId>com.atmecs.falcon.automation</groupId> <artifactId>falcon-commons</artifactId> 
+			<version>1.1.RELEASE</version> </dependency> -->
+		<!-- <dependency> <groupId>com.atmecs.falcon.automation</groupId> <artifactId>falcon-ui</artifactId> 
+			<version>${falcon.ui.version}</version> </dependency> -->
+
+		<dependency>
+       <artifactId>guava</artifactId>
+       <groupId>com.google.guava</groupId>
+       <type>jar</type>
+       <version>15.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<!-- PLUGIN FOR MAVEN COMPLIER PLUGIN -->
+			<plugin>
+				<inherited>true</inherited>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.plugin}</version>
+				<configuration>
+					<source>${java.source.version}</source>
+					<target>${java.target.version}</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<!-- Commend out ! Remove it if not required -->
+			<!-- Maven MOJO Exec Plugin -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>${exec.maven.plugin}</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>com.atmecs.runner.TestNGRunner</mainClass>
+					<cleanupDaemonThreads>false</cleanupDaemonThreads>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+</project>

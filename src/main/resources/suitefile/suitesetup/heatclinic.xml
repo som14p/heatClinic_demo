@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="loginexcel">
+
+
+	<test name="loginwithexceldata">
+		<classes>
+			<class
+				name="com.atmecs.testscript.Login" />
+	
+	</classes>			
+	</test>
+	 
+	 <test name="loginwithinvalidexceldata">
+		<classes>
+			<class
+				name="com.atmecs.testscript.InvalidLogin" />
+	</classes>			
+
+	
+	</test>
+
+	<test name="registerwithexceldata">
+		<classes>
+			<class
+				name="com.atmecs.testscript.Registration" />
+	
+	</classes>			
+	</test>
+	<test name="traversewithexceldata">
+		<classes>
+			<class
+				name="com.atmecs.testscript.TraversePages" />
+	
+	</classes>			
+	</test>  
+ 
+	
+</suite>
+

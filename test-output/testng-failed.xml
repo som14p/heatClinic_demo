@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HeatClinic-loginexcel-WIN_10_Chrome_71]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithinvalidexceldata(failed)">
+    <classes>
+      <class name="com.atmecs.testscript.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Login -->
+      <class name="com.atmecs.testscript.TraversePages">
+        <methods>
+          <include name="setup"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.TraversePages -->
+      <class name="com.atmecs.testscript.Registration">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Registration -->
+      <class name="com.atmecs.testscript.InvalidLogin">
+        <methods>
+          <include name="invalidLogin" invocation-numbers="0"/>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.InvalidLogin -->
+    </classes>
+  </test> <!-- loginwithinvalidexceldata(failed) -->
+</suite> <!-- Failed suite [HeatClinic-loginexcel-WIN_10_Chrome_71] -->
