@@ -56,7 +56,7 @@ public class InvalidLogin extends PageObject {
 
 	@Test(dataProvider = "loginData2",
 			dataProviderClass = com.atmecs.testfunction.utils.DataProvider.class,priority=2)
-	public void invalidLogin(String email, String password, String name) {
+	public void loginInvalid(String email, String password, String name) {
 		logService.info("INFO: Reading data from Excel file");
 		logService.info("INFO: Opening url " + url);
 		browser.openURL(url, os, osVersion, browserName, browserVersion);

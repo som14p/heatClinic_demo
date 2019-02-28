@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HeatClinic-loginexcel-WIN_10_firefox_64]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="64"/>
+  <test name="loginwithexceldata(failed)">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.InvalidLogin -->
+      <class name="com.atmecs.testscript.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="validLogin" invocation-numbers="0"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Login -->
+      <class name="com.atmecs.testscript.TraversePages">
+        <methods>
+          <include name="setup"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.TraversePages -->
+      <class name="com.atmecs.testscript.Registration">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Registration -->
+    </classes>
+  </test> <!-- loginwithexceldata(failed) -->
+  <test name="loginwithinvalidexceldata(failed)">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin">
+        <methods>
+          <include name="invalidLogin" invocation-numbers="0"/>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.InvalidLogin -->
+      <class name="com.atmecs.testscript.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Login -->
+      <class name="com.atmecs.testscript.TraversePages">
+        <methods>
+          <include name="setup"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.TraversePages -->
+      <class name="com.atmecs.testscript.Registration">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Registration -->
+    </classes>
+  </test> <!-- loginwithinvalidexceldata(failed) -->
+  <test name="registerwithexceldata(failed)">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.InvalidLogin -->
+      <class name="com.atmecs.testscript.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Login -->
+      <class name="com.atmecs.testscript.TraversePages">
+        <methods>
+          <include name="setup"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.TraversePages -->
+      <class name="com.atmecs.testscript.Registration">
+        <methods>
+          <include name="register" invocation-numbers="0"/>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Registration -->
+    </classes>
+  </test> <!-- registerwithexceldata(failed) -->
+  <test name="traversewithexceldata(failed)">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.InvalidLogin -->
+      <class name="com.atmecs.testscript.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Login -->
+      <class name="com.atmecs.testscript.TraversePages">
+        <methods>
+          <include name="setup"/>
+          <include name="traverseTheLinks"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.TraversePages -->
+      <class name="com.atmecs.testscript.Registration">
+        <methods>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.Registration -->
+    </classes>
+  </test> <!-- traversewithexceldata(failed) -->
+</suite> <!-- Failed suite [HeatClinic-loginexcel-WIN_10_firefox_64] -->

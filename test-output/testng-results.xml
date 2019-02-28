@@ -8,7 +8,7 @@
       <![CDATA[INFO: The value found with Environment Module variable heatclinic is: heatclinic]]>
     </line>
     <line>
-      <![CDATA[The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71]]>
+      <![CDATA[The value found with Environment variable WIN_10_chrome_71 is: WIN_10_chrome_71]]>
     </line>
     <line>
       <![CDATA[INFO: Clients Found: [HeatClinic]
@@ -19,15 +19,15 @@
 ]]>
     </line>
     <line>
-      <![CDATA[INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71]]>
+      <![CDATA[INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_chrome_71]]>
     </line>
     <line>
       <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+<suite name="HeatClinic-loginexcel-WIN_10_chrome_71">
   <parameter name="os" value="WIN"/>
   <parameter name="osVersion" value="10"/>
-  <parameter name="browser" value="Chrome"/>
+  <parameter name="browser" value="chrome"/>
   <parameter name="browserVersion" value="71"/>
   <test name="loginwithexceldata">
     <classes>
@@ -49,7 +49,7 @@
       <class name="com.atmecs.testscript.TraversePages"/>
     </classes>
   </test> <!-- traversewithexceldata -->
-</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
 ]]>
     </line>
     <line>
@@ -152,7 +152,7 @@
       <![CDATA[FAIL : Error occured capturing screenshot, refer to error tab for more details]]>
     </line>
     <line>
-      <![CDATA[IMG : 053564eb-27ed-49dd-83d0-5717314c35d3]]>
+      <![CDATA[IMG : b924301a-caa8-4b83-83f5-944f87c0bd21]]>
     </line>
     <line>
       <![CDATA[Reading data from Register data excel file]]>
@@ -165,6 +165,9 @@
     </line>
     <line>
       <![CDATA[Clicking Register link]]>
+    </line>
+    <line>
+      <![CDATA[PASS :  Verify click on Register : ACTUAL : Register for an Account 	EXPECTED :Register for an Account]]>
     </line>
     <line>
       <![CDATA[Entering data in Email fieldrajat.gupta@atmecs.com]]>
@@ -185,10 +188,28 @@
       <![CDATA[Click to register the user]]>
     </line>
     <line>
+      <![CDATA[PASS :  Verify user register button clicked : ACTUAL : That email address is already in use. 	EXPECTED :That email address is already in use.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Account Verified]]>
+    </line>
+    <line>
       <![CDATA[INFO: Maximizing window ]]>
     </line>
     <line>
       <![CDATA[Clicking on the Home Tab]]>
+    </line>
+    <line>
+      <![CDATA[PASS :  Verify click on HOME page : ACTUAL : http://10.10.10.232:8080/ 	EXPECTED :http://10.10.10.232:8080/]]>
+    </line>
+    <line>
+      <![CDATA[PASS :  Verify click on Hot Sauces : ACTUAL : Viewing Hot Sauces (1 - 15 of 19) 	EXPECTED :Viewing Hot Sauces (1 - 15 of 19)]]>
+    </line>
+    <line>
+      <![CDATA[PASS :  Verify click on Merchandise Men : ACTUAL : Viewing Mens (1 - 3 of 3) 	EXPECTED :Viewing Mens (1 - 3 of 3)]]>
+    </line>
+    <line>
+      <![CDATA[PASS :  Verify click on Merchandise Woman : ACTUAL : Viewing Womens (1 - 3 of 3) 	EXPECTED :Viewing Womens (1 - 3 of 3)]]>
     </line>
     <line>
       <![CDATA[Clicking on logout button]]>
@@ -197,16 +218,16 @@
       <![CDATA[Logged out successfully]]>
     </line>
   </reporter-output>
-  <suite name="HeatClinic-loginexcel-WIN_10_Chrome_71" duration-ms="173904" started-at="2019-02-21T07:18:05Z" finished-at="2019-02-21T07:20:59Z">
+  <suite name="HeatClinic-loginexcel-WIN_10_chrome_71" duration-ms="76685" started-at="2019-02-28T14:06:24Z" finished-at="2019-02-28T14:07:41Z">
     <groups>
     </groups>
-    <test name="loginwithexceldata" duration-ms="60886" started-at="2019-02-21T07:18:05Z" finished-at="2019-02-21T07:19:06Z">
+    <test name="loginwithexceldata" duration-ms="21159" started-at="2019-02-28T14:06:24Z" finished-at="2019-02-28T14:06:46Z">
       <class name="com.atmecs.testscript.Login">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.Login@7d9482ab]" name="setup" is-config="true" duration-ms="31" started-at="2019-02-21T12:48:05Z" finished-at="2019-02-21T12:48:05Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.Login@4139922]" name="setup" is-config="true" duration-ms="16" started-at="2019-02-28T19:36:24Z" finished-at="2019-02-28T19:36:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -228,7 +249,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testscript.Login@7d9482ab]" name="validLogin" duration-ms="58536" started-at="2019-02-21T12:48:06Z" data-provider="loginData" finished-at="2019-02-21T12:49:04Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testscript.Login@4139922]" name="login" duration-ms="19603" started-at="2019-02-28T19:36:25Z" data-provider="loginData" finished-at="2019-02-28T19:36:44Z">
           <params>
             <param index="0">
               <value>
@@ -323,20 +344,20 @@
               <![CDATA[Logged out successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.Login@7d9482ab]" name="exit" is-config="true" duration-ms="1234" started-at="2019-02-21T12:49:04Z" finished-at="2019-02-21T12:49:06Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.Login@4139922]" name="exit" is-config="true" duration-ms="1098" started-at="2019-02-28T19:36:44Z" finished-at="2019-02-28T19:36:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
       </class> <!-- com.atmecs.testscript.Login -->
     </test> <!-- loginwithexceldata -->
-    <test name="loginwithinvalidexceldata" duration-ms="31136" started-at="2019-02-21T07:19:06Z" finished-at="2019-02-21T07:19:37Z">
+    <test name="loginwithinvalidexceldata" duration-ms="17451" started-at="2019-02-28T14:06:46Z" finished-at="2019-02-28T14:07:03Z">
       <class name="com.atmecs.testscript.InvalidLogin">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.InvalidLogin@153df9ec]" name="setup" is-config="true" duration-ms="2" started-at="2019-02-21T12:49:06Z" finished-at="2019-02-21T12:49:06Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.InvalidLogin@57ca6ebe]" name="setup" is-config="true" duration-ms="0" started-at="2019-02-28T19:36:46Z" finished-at="2019-02-28T19:36:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -358,7 +379,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="invalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testscript.InvalidLogin@153df9ec]" name="invalidLogin" duration-ms="29042" started-at="2019-02-21T12:49:06Z" data-provider="loginData2" finished-at="2019-02-21T12:49:35Z">
+        <test-method status="FAIL" signature="loginInvalid(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testscript.InvalidLogin@57ca6ebe]" name="loginInvalid" duration-ms="15746" started-at="2019-02-28T19:36:46Z" data-provider="loginData2" finished-at="2019-02-28T19:37:01Z">
           <params>
             <param index="0">
               <value>
@@ -380,23 +401,23 @@
             <message>
               <![CDATA[Timed out after 10 seconds waiting for visibility of element located by By.xpath: //a[@class='my-account']
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ATMECSINLT-469', ip: '55.55.53.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:2522}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Windows\proxy\scoped_dir8292_1506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, webdriver.remote.sessionid=9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd]]>
+System info: host: 'ATMECSINDT-065', ip: '50.50.50.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60317}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\SOM~1.PRA\AppData\Local\Temp\scoped_dir11268_13912}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.119, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 719b2f75749e16561f0bce50f5533b1e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for visibility of element located by By.xpath: //a[@class='my-account']
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ATMECSINLT-469', ip: '55.55.53.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:2522}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Windows\proxy\scoped_dir8292_1506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, webdriver.remote.sessionid=9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd
+System info: host: 'ATMECSINDT-065', ip: '50.50.50.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60317}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\SOM~1.PRA\AppData\Local\Temp\scoped_dir11268_13912}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.119, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 719b2f75749e16561f0bce50f5533b1e
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
 	at com.atmecs.falcon.automation.ui.selenium.WaitElement.waitFor(WaitElement.java:90)
 	at com.atmecs.testscript.InvalidLogin.accountLogin(InvalidLogin.java:86)
-	at com.atmecs.testscript.InvalidLogin.invalidLogin(InvalidLogin.java:67)
+	at com.atmecs.testscript.InvalidLogin.loginInvalid(InvalidLogin.java:67)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -426,26 +447,17 @@ Session ID: 9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:293)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='my-account']"}
-  (Session info: chrome=71.0.3578.80)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: '185-44-128-41', ip: '185.44.128.41', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:2522}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Windows\proxy\scoped_dir8292_1506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 69236abe7353320b48cbf40c25296132
-*** Element info: {Using=xpath, value=//a[@class='my-account']}
-Command duration or timeout: 949 milliseconds
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ATMECSINLT-469', ip: '55.55.53.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:2522}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Windows\proxy\scoped_dir8292_1506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, webdriver.remote.sessionid=9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd
+System info: host: 'ATMECSINDT-065', ip: '50.50.50.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60317}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\SOM~1.PRA\AppData\Local\Temp\scoped_dir11268_13912}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.119, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 719b2f75749e16561f0bce50f5533b1e
 *** Element info: {Using=xpath, value=//a[@class='my-account']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -461,52 +473,6 @@ Session ID: 9b86a83af6ddade4c3a664f8b7949c5db5e9bdcd
 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
 	... 31 more
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ATMECSINLT-469', ip: '55.55.53.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	... 41 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='my-account']"}
-  (Session info: chrome=71.0.3578.80)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: '185-44-128-41', ip: '185.44.128.41', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:2522}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90), userDataDir=C:\Windows\proxy\scoped_dir8292_1506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 69236abe7353320b48cbf40c25296132
-*** Element info: {Using=xpath, value=//a[@class='my-account']}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ATMECSINLT-469', ip: '55.55.53.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
@@ -536,23 +502,23 @@ Driver info: driver.version: EventFiringWebDriver
               <![CDATA[FAIL : Error occured capturing screenshot, refer to error tab for more details]]>
             </line>
             <line>
-              <![CDATA[IMG : 053564eb-27ed-49dd-83d0-5717314c35d3]]>
+              <![CDATA[IMG : b924301a-caa8-4b83-83f5-944f87c0bd21]]>
             </line>
           </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.InvalidLogin@153df9ec]" name="exit" is-config="true" duration-ms="1146" started-at="2019-02-21T12:49:36Z" finished-at="2019-02-21T12:49:37Z">
+        </test-method> <!-- loginInvalid -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.InvalidLogin@57ca6ebe]" name="exit" is-config="true" duration-ms="846" started-at="2019-02-28T19:37:02Z" finished-at="2019-02-28T19:37:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
       </class> <!-- com.atmecs.testscript.InvalidLogin -->
     </test> <!-- loginwithinvalidexceldata -->
-    <test name="registerwithexceldata" duration-ms="27932" started-at="2019-02-21T07:19:37Z" finished-at="2019-02-21T07:20:05Z">
+    <test name="registerwithexceldata" duration-ms="11875" started-at="2019-02-28T14:07:03Z" finished-at="2019-02-28T14:07:15Z">
       <class name="com.atmecs.testscript.Registration">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.Registration@5609ba46]" name="setup" is-config="true" duration-ms="1" started-at="2019-02-21T12:49:37Z" finished-at="2019-02-21T12:49:37Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.Registration@4d94a308]" name="setup" is-config="true" duration-ms="0" started-at="2019-02-28T19:37:03Z" finished-at="2019-02-28T19:37:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -574,7 +540,7 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.atmecs.testscript.Registration@5609ba46]" name="register" duration-ms="26653" started-at="2019-02-21T12:49:37Z" data-provider="RegisterData" finished-at="2019-02-21T12:50:03Z">
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.atmecs.testscript.Registration@4d94a308]" name="register" duration-ms="10917" started-at="2019-02-28T19:37:03Z" data-provider="RegisterData" finished-at="2019-02-28T19:37:14Z">
           <params>
             <param index="0">
               <value>
@@ -616,6 +582,9 @@ Driver info: driver.version: EventFiringWebDriver
               <![CDATA[Clicking Register link]]>
             </line>
             <line>
+              <![CDATA[PASS :  Verify click on Register : ACTUAL : Register for an Account 	EXPECTED :Register for an Account]]>
+            </line>
+            <line>
               <![CDATA[Entering data in Email fieldrajat.gupta@atmecs.com]]>
             </line>
             <line>
@@ -633,41 +602,31 @@ Driver info: driver.version: EventFiringWebDriver
             <line>
               <![CDATA[Click to register the user]]>
             </line>
+            <line>
+              <![CDATA[PASS :  Verify user register button clicked : ACTUAL : That email address is already in use. 	EXPECTED :That email address is already in use.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Account Verified]]>
+            </line>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.Registration@5609ba46]" name="exit" is-config="true" duration-ms="1214" started-at="2019-02-21T12:50:03Z" finished-at="2019-02-21T12:50:05Z">
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.Registration@4d94a308]" name="exit" is-config="true" duration-ms="927" started-at="2019-02-28T19:37:14Z" finished-at="2019-02-28T19:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
       </class> <!-- com.atmecs.testscript.Registration -->
     </test> <!-- registerwithexceldata -->
-    <test name="traversewithexceldata" duration-ms="53862" started-at="2019-02-21T07:20:05Z" finished-at="2019-02-21T07:20:59Z">
+    <test name="traversewithexceldata" duration-ms="26185" started-at="2019-02-28T14:07:15Z" finished-at="2019-02-28T14:07:41Z">
       <class name="com.atmecs.testscript.TraversePages">
-        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.testscript.TraversePages@522155a8]" name="preSetup" is-config="true" duration-ms="26" started-at="2019-02-21T12:48:05Z" finished-at="2019-02-21T12:48:05Z">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.testscript.TraversePages@1c3bc3c9]" name="preSetup" is-config="true" duration-ms="15" started-at="2019-02-28T19:36:24Z" finished-at="2019-02-28T19:36:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method status="PASS" signature="traverseTheLinks()[pri:0, instance:com.atmecs.testscript.TraversePages@522155a8]" name="traverseTheLinks" duration-ms="52638" started-at="2019-02-21T12:50:05Z" finished-at="2019-02-21T12:50:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[INFO: Maximizing window ]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on the Home Tab]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on logout button]]>
-            </line>
-            <line>
-              <![CDATA[Logged out successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- traverseTheLinks -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.TraversePages@522155a8]" name="setup" is-config="true" duration-ms="0" started-at="2019-02-21T12:50:05Z" finished-at="2019-02-21T12:50:05Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.testscript.TraversePages@1c3bc3c9]" name="setup" is-config="true" duration-ms="0" started-at="2019-02-28T19:37:15Z" finished-at="2019-02-28T19:37:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -689,15 +648,43 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.TraversePages@522155a8]" name="exit" is-config="true" duration-ms="1223" started-at="2019-02-21T12:50:57Z" finished-at="2019-02-21T12:50:59Z">
+        <test-method status="PASS" signature="traverseTheLinks()[pri:0, instance:com.atmecs.testscript.TraversePages@1c3bc3c9]" name="traverseTheLinks" duration-ms="25283" started-at="2019-02-28T19:37:15Z" finished-at="2019-02-28T19:37:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO: Maximizing window ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the Home Tab]]>
+            </line>
+            <line>
+              <![CDATA[PASS :  Verify click on HOME page : ACTUAL : http://10.10.10.232:8080/ 	EXPECTED :http://10.10.10.232:8080/]]>
+            </line>
+            <line>
+              <![CDATA[PASS :  Verify click on Hot Sauces : ACTUAL : Viewing Hot Sauces (1 - 15 of 19) 	EXPECTED :Viewing Hot Sauces (1 - 15 of 19)]]>
+            </line>
+            <line>
+              <![CDATA[PASS :  Verify click on Merchandise Men : ACTUAL : Viewing Mens (1 - 3 of 3) 	EXPECTED :Viewing Mens (1 - 3 of 3)]]>
+            </line>
+            <line>
+              <![CDATA[PASS :  Verify click on Merchandise Woman : ACTUAL : Viewing Womens (1 - 3 of 3) 	EXPECTED :Viewing Womens (1 - 3 of 3)]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- traverseTheLinks -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.atmecs.testscript.TraversePages@1c3bc3c9]" name="exit" is-config="true" duration-ms="898" started-at="2019-02-28T19:37:40Z" finished-at="2019-02-28T19:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscript.TraversePages@522155a8]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-21T12:50:59Z" finished-at="2019-02-21T12:50:59Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscript.TraversePages@1c3bc3c9]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-28T19:37:41Z" finished-at="2019-02-28T19:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.atmecs.testscript.TraversePages -->
     </test> <!-- traversewithexceldata -->
-  </suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+  </suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
 </testng-results>

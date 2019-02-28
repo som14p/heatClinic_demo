@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Sample Suite File -->
-
 <suite name="loginexcel">
 
 
@@ -13,7 +11,7 @@
 	</classes>			
 	</test>
 	 
-	 <test name="loginwithinvalidexceldata">
+	  <test name="loginwithinvalidexceldata">
 		<classes>
 			<class
 				name="com.atmecs.testscript.InvalidLogin" />
@@ -35,7 +33,7 @@
 				name="com.atmecs.testscript.TraversePages" />
 	
 	</classes>			
-	</test>  
+	</test>   
  
 	
 </suite>

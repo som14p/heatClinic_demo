@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  loginwithexceldata</title>
+<title>TestNG:  registerwithexceldata</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>loginwithexceldata</h2><table border='1' align="center">
+<h2 align='center'>registerwithexceldata</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 21 16:45:44 IST 2019</td>
+<td>Started on:</td><td>Thu Feb 21 16:46:29 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22114 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17473 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.testscript.Login.validLogin()'><b>validLogin</b><br>Test class: com.atmecs.testscript.Login<br>Parameters: rajat.gupta@atmecs.com, abcd, Rajat<br/>
-<a href="#Output-651495635" onClick='toggleBox("Output-651495635", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.testscript.Registration.register()'><b>register</b><br>Test class: com.atmecs.testscript.Registration<br>Parameters: rajat.gupta@atmecs.com, Rajat, Gupta, abcd, abcd<br/>
+<a href="#Output-1321765396" onClick='toggleBox("Output-1321765396", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-651495635" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-651495635">
-INFO: Reading data from Excel file<br/>
-INFO: Opening url http://10.10.10.232:8080/<br/>
-INFO: Maximizing window <br/>
-INFO: Clicking login link <br/>
+<a href="#Output-1321765396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1321765396">
+Reading data from Register data excel file<br/>
+OpeningURLhttp://10.10.10.232:8080/<br/>
+INFO: Maximizing window<br/>
+Clicking Register link<br/>
 FAIL : Error occured capturing screenshot, refer to error tab for more details<br/>
-IMG : c7c5e1ab-13e2-4404-be25-38ff648cbef9<br/>
+IMG : 27b9cffa-c3dc-47bf-b822-8103ee5ab537<br/>
 Creating Bug in JIRA<br/>
 Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found<br/>
 Failed to create JIRA Bug null<br/>
@@ -93,31 +93,31 @@ null<br/>
 </div>
 </td>
 <td><div><pre>org.openqa.selenium.WebDriverException:  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.34 seconds
+Command duration or timeout: 1.06 seconds
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ATMECSINLT-469&apos;, ip: &apos;55.55.53.74&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{moz:profile=C:\Windows\proxy\rust_mozprofile.ztAYhag9l6ut, rotatable=false, capabilities={desiredCapabilities={browserVersion=64.0, browserName=firefox}}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=80068bc432c76c645f7c7107b38c30bbf63ab53e, acceptInsecureCerts=false, browserVersion=64.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=1176, browserName=firefox, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: 80068bc432c76c645f7c7107b38c30bbf63ab53e
+Capabilities [{moz:profile=C:\Windows\proxy\rust_mozprofile.PlQFOup25Z3N, rotatable=false, capabilities={desiredCapabilities={browserVersion=64.0, browserName=firefox}}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=0d7dc7906bc802c20ad68a99ee6b452bc9c9ed38, acceptInsecureCerts=false, browserVersion=64.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=11868, browserName=firefox, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 0d7dc7906bc802c20ad68a99ee6b452bc9c9ed38
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
 	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
-	at com.atmecs.testscript.Login.accountLogin(Login.java:78)
-	at com.atmecs.testscript.Login.validLogin(Login.java:67)
+	at com.atmecs.testscript.Registration.RegisterUser(Registration.java:62)
+	at com.atmecs.testscript.Registration.register(Registration.java:57)
 	at com.atmecs.runner.TestNGRunner.main(TestNGRunner.java:74)
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:293)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace651495635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace651495635'><pre>org.openqa.selenium.WebDriverException:  (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.34 seconds
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1321765396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1321765396'><pre>org.openqa.selenium.WebDriverException:  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.06 seconds
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ATMECSINLT-469&apos;, ip: &apos;55.55.53.74&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{moz:profile=C:\Windows\proxy\rust_mozprofile.ztAYhag9l6ut, rotatable=false, capabilities={desiredCapabilities={browserVersion=64.0, browserName=firefox}}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=80068bc432c76c645f7c7107b38c30bbf63ab53e, acceptInsecureCerts=false, browserVersion=64.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=1176, browserName=firefox, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: 80068bc432c76c645f7c7107b38c30bbf63ab53e
+Capabilities [{moz:profile=C:\Windows\proxy\rust_mozprofile.PlQFOup25Z3N, rotatable=false, capabilities={desiredCapabilities={browserVersion=64.0, browserName=firefox}}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=0d7dc7906bc802c20ad68a99ee6b452bc9c9ed38, acceptInsecureCerts=false, browserVersion=64.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=11868, browserName=firefox, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 0d7dc7906bc802c20ad68a99ee6b452bc9c9ed38
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -128,8 +128,8 @@ Session ID: 80068bc432c76c645f7c7107b38c30bbf63ab53e
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
 	at com.atmecs.falcon.automation.ui.selenium.Click.performClick(Click.java:132)
-	at com.atmecs.testscript.Login.accountLogin(Login.java:78)
-	at com.atmecs.testscript.Login.validLogin(Login.java:67)
+	at com.atmecs.testscript.Registration.RegisterUser(Registration.java:62)
+	at com.atmecs.testscript.Registration.register(Registration.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,8 +159,8 @@ Session ID: 80068bc432c76c645f7c7107b38c30bbf63ab53e
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:293)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>18</td>
-<td>com.atmecs.testscript.Login@66de129c</td></tr>
+<td>15</td>
+<td>com.atmecs.testscript.Registration@6468cc28</td></tr>
 </table><p>
 </body>
 </html>

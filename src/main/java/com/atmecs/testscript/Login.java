@@ -56,7 +56,7 @@ public class Login extends PageObject {
 
 	@Test(dataProvider = "loginData",
 			dataProviderClass = com.atmecs.testfunction.utils.DataProvider.class,priority=2)
-	public void validLogin(String email, String password, String name) {
+	public void login(String email, String password, String name) {
 		logService.info("INFO: Reading data from Excel file");
 		logService.info("INFO: Opening url " + url);
 		browser.openURL(url, os, osVersion, browserName, browserVersion);

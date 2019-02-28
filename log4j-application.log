@@ -3160,3 +3160,2093 @@
 2019-02-21 12:50:51 INFO  TraversePages:49 - Clicking on logout button
 2019-02-21 12:50:57 INFO  TraversePages:49 - Logged out successfully
 2019-02-21 12:50:59 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6917}
+2019-02-21 12:53:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 12:53:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 12:53:32 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 12:53:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 12:53:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 12:53:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 12:53:34 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 12:53:35 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 12:53:35 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 12:53:45 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 12:53:47 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 12:53:52 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 12:53:53 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 12:53:53 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 12:53:58 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 12:53:58 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 12:53:58 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 12:54:01 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 12:54:04 INFO  Login:49 - Verifying account updation
+2019-02-21 12:54:05 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 12:54:05 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 12:54:05 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 12:54:08 INFO  Login:49 - Clicking on Sauce
+2019-02-21 12:54:15 INFO  Login:49 - Clicking on buy button
+2019-02-21 12:54:16 INFO  Login:49 - Checking cart item
+2019-02-21 12:54:18 INFO  Login:49 - Verifying item in cart
+2019-02-21 12:54:21 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 12:54:21 INFO  Login:49 - Removing Cart Item
+2019-02-21 12:54:21 INFO  Login:49 - Item Removed Successfully
+2019-02-21 12:54:21 INFO  Login:49 - Closeing Cart Window
+2019-02-21 12:54:22 INFO  Login:49 - Clicking on logout button
+2019-02-21 12:54:25 INFO  Login:49 - Logged out successfully
+2019-02-21 12:54:26 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 12:54:26 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 12:54:34 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 12:54:36 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 12:54:41 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 12:54:42 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 12:54:42 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 12:54:56 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 12:54:57 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 12:54:57 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 12:55:05 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 12:55:07 INFO  Registration:49 - Clicking Register link
+2019-02-21 12:55:12 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 12:55:14 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 12:55:15 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 12:55:17 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 12:55:18 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 12:55:20 INFO  Registration:49 - Click to register the user
+2019-02-21 12:55:34 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 12:55:36 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 12:56:09 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 12:56:14 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 12:56:16 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6918}
+2019-02-21 15:03:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:03:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:03:58 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:03:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:03:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:03:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:03:59 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:04:00 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:04:00 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:04:19 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:04:21 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:04:26 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:04:27 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:04:27 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:04:32 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:04:32 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:04:32 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:04:35 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:04:39 INFO  Login:49 - Verifying account updation
+2019-02-21 15:04:39 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:04:39 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:04:39 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:04:43 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:04:49 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:04:50 INFO  Login:49 - Checking cart item
+2019-02-21 15:04:52 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:04:55 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:04:55 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:04:55 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:04:55 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:04:56 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:04:59 INFO  Login:49 - Logged out successfully
+2019-02-21 15:05:01 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 15:05:01 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:05:11 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 15:05:13 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 15:05:18 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 15:05:19 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 15:05:19 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 15:05:34 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 15:05:34 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 15:05:35 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 15:05:35 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 15:05:35 INFO  CustomListener:49 - 
+2019-02-21 15:05:36 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 15:05:36 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 15:05:44 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 15:05:45 INFO  Registration:49 - Clicking Register link
+2019-02-21 15:05:50 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 15:05:51 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 15:05:53 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 15:06:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:06:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:06:13 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:06:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:06:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:06:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:06:14 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:06:15 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:06:15 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:06:22 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:06:23 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:06:25 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:06:25 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:06:25 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:06:26 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:06:26 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:06:26 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:06:29 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:06:29 INFO  Login:49 - Verifying account updation
+2019-02-21 15:06:29 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:06:29 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:06:29 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:06:30 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:06:35 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:06:35 INFO  Login:49 - Checking cart item
+2019-02-21 15:06:36 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:06:38 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:06:38 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:06:38 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:06:38 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:06:38 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:06:38 INFO  Login:49 - Logged out successfully
+2019-02-21 15:06:40 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6924}
+2019-02-21 15:08:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:08:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:08:55 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:08:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:08:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:08:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:08:56 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:08:57 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:08:57 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:09:02 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:09:03 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:09:04 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:09:04 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:09:04 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:09:05 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:09:05 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:09:05 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:09:05 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:09:06 INFO  Login:49 - Verifying account updation
+2019-02-21 15:09:06 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:09:06 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:09:06 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:09:07 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:09:11 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:09:11 INFO  Login:49 - Checking cart item
+2019-02-21 15:09:12 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:09:14 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:09:14 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:09:14 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:09:14 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:09:15 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:09:15 INFO  Login:49 - Logged out successfully
+2019-02-21 15:09:16 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6925}
+2019-02-21 15:10:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:10:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:10:39 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:10:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:10:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:10:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:10:40 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:10:41 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:10:41 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:10:46 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:10:47 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:10:48 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:10:48 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:10:48 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:10:49 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:10:49 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:10:49 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:10:50 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:10:50 INFO  Login:49 - Verifying account updation
+2019-02-21 15:10:50 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:10:50 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:10:50 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:10:51 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:10:55 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:10:55 INFO  Login:49 - Checking cart item
+2019-02-21 15:10:56 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:10:58 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:10:58 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:10:58 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:10:58 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:10:58 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:10:59 INFO  Login:49 - Logged out successfully
+2019-02-21 15:11:00 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6928}
+2019-02-21 15:12:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:12:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:12:05 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:12:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:12:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:12:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:12:06 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:12:07 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:12:07 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:12:12 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:12:13 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:12:13 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:12:13 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:12:14 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:12:14 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:12:14 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:12:14 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:12:15 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:12:15 INFO  Login:49 - Verifying account updation
+2019-02-21 15:12:15 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:12:15 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:12:15 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:12:16 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:12:21 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:12:21 INFO  Login:49 - Checking cart item
+2019-02-21 15:12:22 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:12:24 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:12:24 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:12:24 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:12:24 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:12:24 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:12:25 INFO  Login:49 - Logged out successfully
+2019-02-21 15:12:26 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6929}
+2019-02-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:13:09 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:13:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:13:10 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:13:11 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:13:11 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:13:16 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:13:17 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:13:18 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:13:18 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:13:18 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:13:19 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:13:19 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:13:19 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:13:20 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:13:21 INFO  Login:49 - Verifying account updation
+2019-02-21 15:13:21 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:13:21 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:13:21 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:13:22 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:13:26 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:13:26 INFO  Login:49 - Checking cart item
+2019-02-21 15:13:27 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:13:29 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:13:29 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:13:29 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:13:29 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:13:30 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:13:30 INFO  Login:49 - Logged out successfully
+2019-02-21 15:13:31 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6930}
+2019-02-21 15:14:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:14:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:14:55 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:14:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:14:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:14:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:14:56 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:14:58 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:14:58 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:15:04 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:15:05 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:15:06 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:15:06 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:15:06 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:15:07 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:15:07 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:15:07 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:15:07 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:15:08 INFO  Login:49 - Verifying account updation
+2019-02-21 15:15:08 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:15:08 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:15:08 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:15:09 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:15:13 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:15:13 INFO  Login:49 - Checking cart item
+2019-02-21 15:15:14 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:15:16 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:15:16 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:15:16 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:15:16 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:15:16 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:15:17 INFO  Login:49 - Logged out successfully
+2019-02-21 15:15:18 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6931}
+2019-02-21 15:35:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:35:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:35:47 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_71 is: WIN_10_chrome_71
+2019-02-21 15:35:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:35:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:35:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_chrome_71
+2019-02-21 15:35:48 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
+
+2019-02-21 15:35:49 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:35:49 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:35:54 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:35:56 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:35:57 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:35:57 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:35:57 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:35:58 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:35:58 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:35:58 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:35:58 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:35:59 INFO  Login:49 - Verifying account updation
+2019-02-21 15:35:59 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:35:59 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:35:59 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:36:00 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:36:04 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:36:04 INFO  Login:49 - Checking cart item
+2019-02-21 15:36:05 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:36:07 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:36:07 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:36:07 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:36:07 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:36:08 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:36:08 INFO  Login:49 - Logged out successfully
+2019-02-21 15:36:09 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6935}
+2019-02-21 15:42:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:42:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:42:32 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_71 is: WIN_10_chrome_71
+2019-02-21 15:42:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:42:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:42:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_chrome_71
+2019-02-21 15:42:33 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
+
+2019-02-21 15:42:34 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:42:34 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:42:39 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:42:40 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:42:41 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:42:41 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:42:41 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:42:42 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:42:42 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:42:42 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:42:42 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:42:43 INFO  Login:49 - Verifying account updation
+2019-02-21 15:42:43 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:42:43 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:42:43 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:42:45 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:42:49 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:42:49 INFO  Login:49 - Checking cart item
+2019-02-21 15:42:50 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:42:52 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:42:52 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:42:52 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:42:52 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:42:52 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:42:52 INFO  Login:49 - Logged out successfully
+2019-02-21 15:42:54 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6938}
+2019-02-21 15:45:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:45:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:45:55 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_71 is: WIN_10_chrome_71
+2019-02-21 15:45:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:45:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:45:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_chrome_71
+2019-02-21 15:45:56 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
+
+2019-02-21 15:45:57 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:45:57 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:46:02 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:46:03 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:46:03 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:46:04 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:46:04 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:46:05 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:46:05 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:46:05 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:46:05 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:46:06 INFO  Login:49 - Verifying account updation
+2019-02-21 15:46:06 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:46:06 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:46:06 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:46:07 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:46:11 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:46:11 INFO  Login:49 - Checking cart item
+2019-02-21 15:46:12 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:46:14 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:46:14 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:46:14 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:46:14 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:46:14 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:46:15 INFO  Login:49 - Logged out successfully
+2019-02-21 15:46:16 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6940}
+2019-02-21 15:48:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:48:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:48:46 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_71 is: WIN_10_chrome_71
+2019-02-21 15:48:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:48:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:48:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_chrome_71
+2019-02-21 15:48:47 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
+
+2019-02-21 15:48:48 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:48:48 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:48:53 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:48:54 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:48:55 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:48:55 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:48:55 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:48:56 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:48:56 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:48:56 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:48:56 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:48:57 INFO  Login:49 - Verifying account updation
+2019-02-21 15:48:57 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:48:57 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:48:57 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:48:58 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:49:01 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:49:01 INFO  Login:49 - Checking cart item
+2019-02-21 15:49:02 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:49:05 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:49:05 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:49:05 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:49:05 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:49:05 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:49:05 INFO  Login:49 - Logged out successfully
+2019-02-21 15:49:06 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6941}
+2019-02-21 15:52:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:52:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:52:57 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:52:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:52:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:52:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:52:58 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:52:59 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:52:59 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:53:04 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:53:05 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:53:06 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:53:06 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:53:06 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:53:07 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:53:07 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:53:07 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:53:08 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:53:08 INFO  Login:49 - Verifying account updation
+2019-02-21 15:53:08 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:53:08 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:53:08 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:53:09 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:53:14 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:53:14 INFO  Login:49 - Checking cart item
+2019-02-21 15:53:15 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:53:17 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:53:17 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:53:17 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:53:17 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:53:17 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:53:18 INFO  Login:49 - Logged out successfully
+2019-02-21 15:53:19 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6942}
+2019-02-21 15:55:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 15:55:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 15:55:21 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 15:55:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 15:55:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 15:55:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 15:55:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 15:55:23 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 15:55:23 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:55:27 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 15:55:29 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 15:55:29 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 15:55:30 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 15:55:30 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 15:55:31 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 15:55:31 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 15:55:31 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 15:55:31 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 15:55:32 INFO  Login:49 - Verifying account updation
+2019-02-21 15:55:32 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 15:55:32 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 15:55:32 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 15:55:33 INFO  Login:49 - Clicking on Sauce
+2019-02-21 15:55:37 INFO  Login:49 - Clicking on buy button
+2019-02-21 15:55:37 INFO  Login:49 - Checking cart item
+2019-02-21 15:55:38 INFO  Login:49 - Verifying item in cart
+2019-02-21 15:55:40 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 15:55:40 INFO  Login:49 - Removing Cart Item
+2019-02-21 15:55:40 INFO  Login:49 - Item Removed Successfully
+2019-02-21 15:55:40 INFO  Login:49 - Closeing Cart Window
+2019-02-21 15:55:40 INFO  Login:49 - Clicking on logout button
+2019-02-21 15:55:41 INFO  Login:49 - Logged out successfully
+2019-02-21 15:55:42 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 15:55:42 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 15:55:46 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 15:55:47 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 15:55:47 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 15:55:47 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 15:55:48 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 15:55:58 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 15:55:59 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 15:55:59 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 15:56:03 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 15:56:05 INFO  Registration:49 - Clicking Register link
+2019-02-21 15:56:06 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 15:56:07 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 15:56:08 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 15:56:09 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 15:56:10 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 15:56:11 INFO  Registration:49 - Click to register the user
+2019-02-21 15:56:16 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 15:56:17 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 15:56:37 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 15:56:37 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 15:56:38 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6943}
+2019-02-21 16:07:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 16:07:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 16:07:07 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 16:07:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 16:07:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 16:07:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 16:07:08 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 16:07:09 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 16:07:09 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:07:18 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 16:07:19 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 16:07:20 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 16:07:20 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 16:07:20 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 16:07:21 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 16:07:21 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 16:07:21 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 16:07:22 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 16:07:22 INFO  Login:49 - Verifying account updation
+2019-02-21 16:07:22 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 16:07:22 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 16:07:22 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 16:07:23 INFO  Login:49 - Clicking on Sauce
+2019-02-21 16:07:28 INFO  Login:49 - Clicking on buy button
+2019-02-21 16:07:28 INFO  Login:49 - Checking cart item
+2019-02-21 16:07:29 INFO  Login:49 - Verifying item in cart
+2019-02-21 16:07:31 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 16:07:31 INFO  Login:49 - Removing Cart Item
+2019-02-21 16:07:31 INFO  Login:49 - Item Removed Successfully
+2019-02-21 16:07:31 INFO  Login:49 - Closeing Cart Window
+2019-02-21 16:07:31 INFO  Login:49 - Clicking on logout button
+2019-02-21 16:07:32 INFO  Login:49 - Logged out successfully
+2019-02-21 16:07:33 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 16:07:33 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:07:36 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 16:07:37 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 16:07:38 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 16:07:38 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 16:07:38 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 16:07:49 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:07:49 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:07:50 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:07:50 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:07:50 INFO  CustomListener:49 - 
+2019-02-21 16:07:51 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 16:07:51 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 16:07:55 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 16:07:56 INFO  Registration:49 - Clicking Register link
+2019-02-21 16:07:56 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 16:07:58 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 16:07:59 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 16:08:00 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 16:08:01 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 16:08:02 INFO  Registration:49 - Click to register the user
+2019-02-21 16:08:07 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 16:08:08 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 16:08:28 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 16:08:28 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 16:08:29 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6944}
+2019-02-21 16:42:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 16:42:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 16:42:52 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 16:42:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 16:42:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 16:42:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 16:42:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 16:42:54 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 16:42:54 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:43:00 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 16:43:02 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 16:43:03 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 16:43:04 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 16:43:04 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 16:43:05 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 16:43:05 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 16:43:05 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 16:43:07 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 16:43:08 INFO  Login:49 - Verifying account updation
+2019-02-21 16:43:08 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 16:43:08 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 16:43:08 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 16:43:09 INFO  Login:49 - Clicking on Sauce
+2019-02-21 16:43:14 INFO  Login:49 - Clicking on buy button
+2019-02-21 16:43:14 INFO  Login:49 - Checking cart item
+2019-02-21 16:43:15 INFO  Login:49 - Verifying item in cart
+2019-02-21 16:43:17 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 16:43:17 INFO  Login:49 - Removing Cart Item
+2019-02-21 16:43:17 INFO  Login:49 - Item Removed Successfully
+2019-02-21 16:43:17 INFO  Login:49 - Closeing Cart Window
+2019-02-21 16:43:17 INFO  Login:49 - Clicking on logout button
+2019-02-21 16:43:17 INFO  Login:49 - Logged out successfully
+2019-02-21 16:43:19 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 16:43:19 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:43:23 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 16:43:24 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 16:43:25 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 16:43:25 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 16:43:25 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 16:43:36 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:43:36 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:43:37 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:43:37 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:43:37 INFO  CustomListener:49 - 
+2019-02-21 16:43:38 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 16:43:38 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 16:43:42 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 16:43:43 INFO  Registration:49 - Clicking Register link
+2019-02-21 16:43:43 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 16:43:45 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 16:43:46 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 16:43:47 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 16:43:48 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 16:43:49 INFO  Registration:49 - Click to register the user
+2019-02-21 16:43:54 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 16:43:55 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 16:44:15 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 16:44:16 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 16:44:17 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6947}
+2019-02-21 16:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 16:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 16:45:43 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_firefox_64 is: WIN_10_firefox_64
+2019-02-21 16:45:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 16:45:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 16:45:44 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_firefox_64
+2019-02-21 16:45:44 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_firefox_64">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="64"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_firefox_64 -->
+
+2019-02-21 16:45:45 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 16:45:45 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:45:58 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 16:46:02 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 16:46:04 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:46:05 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:46:05 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:46:05 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:46:05 INFO  CustomListener:49 - 
+2019-02-21 16:46:07 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 16:46:07 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:46:22 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 16:46:26 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 16:46:27 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:46:27 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:46:28 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:46:28 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:46:28 INFO  CustomListener:49 - 
+2019-02-21 16:46:29 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 16:46:29 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 16:46:39 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 16:46:43 INFO  Registration:49 - Clicking Register link
+2019-02-21 16:46:45 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:46:45 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:46:45 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:46:45 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:46:45 INFO  CustomListener:49 - 
+2019-02-21 16:47:04 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 16:47:08 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 16:47:39 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 16:47:41 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:47:41 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:47:41 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:47:41 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:47:41 INFO  CustomListener:49 - 
+2019-02-21 16:47:43 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6948}
+2019-02-21 16:55:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 16:55:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 16:55:09 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 16:55:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 16:55:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 16:55:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 16:55:10 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 16:55:12 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 16:55:12 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:55:27 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 16:55:29 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 16:55:34 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 16:55:34 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 16:55:36 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 16:55:40 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 16:55:40 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 16:55:40 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 16:55:42 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 16:55:45 INFO  Login:49 - Verifying account updation
+2019-02-21 16:55:45 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 16:55:45 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 16:55:45 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 16:55:49 INFO  Login:49 - Clicking on Sauce
+2019-02-21 16:55:55 INFO  Login:49 - Clicking on buy button
+2019-02-21 16:55:56 INFO  Login:49 - Checking cart item
+2019-02-21 16:55:58 INFO  Login:49 - Verifying item in cart
+2019-02-21 16:56:01 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 16:56:01 INFO  Login:49 - Removing Cart Item
+2019-02-21 16:56:01 INFO  Login:49 - Item Removed Successfully
+2019-02-21 16:56:01 INFO  Login:49 - Closeing Cart Window
+2019-02-21 16:56:02 INFO  Login:49 - Clicking on logout button
+2019-02-21 16:56:05 INFO  Login:49 - Logged out successfully
+2019-02-21 16:56:06 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 16:56:06 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 16:56:14 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 16:56:16 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 16:56:21 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 16:56:21 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 16:56:22 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 16:56:37 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 16:56:37 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 16:56:38 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 16:56:38 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 16:56:38 INFO  CustomListener:49 - 
+2019-02-21 16:56:39 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 16:56:39 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 16:56:47 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 16:56:48 INFO  Registration:49 - Clicking Register link
+2019-02-21 16:56:53 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 16:56:55 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 16:56:56 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 16:56:58 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 16:56:59 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 16:57:01 INFO  Registration:49 - Click to register the user
+2019-02-21 16:57:14 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 16:57:16 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 16:57:47 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 16:57:51 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 16:57:53 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6949}
+2019-02-21 17:18:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 17:18:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 17:18:37 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 17:18:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 17:18:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 17:18:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 17:18:38 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 17:18:39 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 17:18:39 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 17:18:48 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 17:18:49 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 17:18:50 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 17:18:50 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 17:18:50 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 17:18:51 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 17:18:51 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 17:18:51 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 17:18:51 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 17:18:52 INFO  Login:49 - Verifying account updation
+2019-02-21 17:18:52 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 17:18:52 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 17:18:52 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 17:18:53 INFO  Login:49 - Clicking on Sauce
+2019-02-21 17:18:58 INFO  Login:49 - Clicking on buy button
+2019-02-21 17:18:58 INFO  Login:49 - Checking cart item
+2019-02-21 17:18:59 INFO  Login:49 - Verifying item in cart
+2019-02-21 17:19:01 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 17:19:01 INFO  Login:49 - Removing Cart Item
+2019-02-21 17:19:01 INFO  Login:49 - Item Removed Successfully
+2019-02-21 17:19:01 INFO  Login:49 - Closeing Cart Window
+2019-02-21 17:19:01 INFO  Login:49 - Clicking on logout button
+2019-02-21 17:19:02 INFO  Login:49 - Logged out successfully
+2019-02-21 17:19:03 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 17:19:03 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 17:19:07 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 17:19:08 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 17:19:08 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 17:19:08 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 17:19:09 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 17:19:20 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 17:19:20 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 17:19:20 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 17:19:20 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 17:19:20 INFO  CustomListener:49 - 
+2019-02-21 17:19:21 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 17:19:21 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 17:19:25 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 17:19:26 INFO  Registration:49 - Clicking Register link
+2019-02-21 17:19:27 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 17:19:28 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 17:19:29 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 17:19:30 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 17:19:31 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 17:19:32 INFO  Registration:49 - Click to register the user
+2019-02-21 17:19:37 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 17:19:39 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 17:19:59 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 17:19:59 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 17:20:00 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6950}
+2019-02-21 17:58:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 17:58:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 17:58:52 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 17:58:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 17:58:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 17:58:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 17:58:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 17:58:55 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 17:58:55 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 17:59:05 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 17:59:07 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 17:59:12 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 17:59:12 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 17:59:13 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 17:59:18 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 17:59:18 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 17:59:18 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 17:59:21 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 17:59:28 INFO  Login:49 - Verifying account updation
+2019-02-21 17:59:29 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 17:59:29 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 17:59:29 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 17:59:34 INFO  Login:49 - Clicking on Sauce
+2019-02-21 17:59:40 INFO  Login:49 - Clicking on buy button
+2019-02-21 17:59:41 INFO  Login:49 - Checking cart item
+2019-02-21 17:59:43 INFO  Login:49 - Verifying item in cart
+2019-02-21 17:59:47 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 17:59:47 INFO  Login:49 - Removing Cart Item
+2019-02-21 17:59:47 INFO  Login:49 - Item Removed Successfully
+2019-02-21 17:59:47 INFO  Login:49 - Closeing Cart Window
+2019-02-21 17:59:48 INFO  Login:49 - Clicking on logout button
+2019-02-21 17:59:54 INFO  Login:49 - Logged out successfully
+2019-02-21 17:59:55 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 17:59:55 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 18:00:06 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 18:00:08 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 18:00:13 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 18:00:14 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 18:00:14 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 18:00:29 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 18:00:29 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 18:00:30 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 18:00:30 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 18:00:30 INFO  CustomListener:49 - 
+2019-02-21 18:00:31 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 18:00:31 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 18:00:42 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 18:00:43 INFO  Registration:49 - Clicking Register link
+2019-02-21 18:00:49 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 18:00:51 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 18:00:53 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 18:00:54 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 18:00:56 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 18:00:58 INFO  Registration:49 - Click to register the user
+2019-02-21 18:01:14 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 18:01:16 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 18:01:51 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 18:01:58 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 18:02:00 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6954}
+2019-02-21 20:04:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-21 20:04:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-21 20:04:33 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-21 20:04:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-21 20:04:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-21 20:04:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-21 20:04:35 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-21 20:04:37 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-21 20:04:37 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 20:04:48 INFO  Login:49 - INFO: Maximizing window 
+2019-02-21 20:04:50 INFO  Login:49 - INFO: Clicking login link 
+2019-02-21 20:04:55 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-21 20:04:55 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-21 20:04:56 INFO  Login:49 - INFO: Clicking login button
+2019-02-21 20:05:03 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-21 20:05:03 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-21 20:05:03 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-21 20:05:06 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-21 20:05:09 INFO  Login:49 - Verifying account updation
+2019-02-21 20:05:10 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-21 20:05:10 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-21 20:05:10 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-21 20:05:15 INFO  Login:49 - Clicking on Sauce
+2019-02-21 20:05:21 INFO  Login:49 - Clicking on buy button
+2019-02-21 20:05:22 INFO  Login:49 - Checking cart item
+2019-02-21 20:05:24 INFO  Login:49 - Verifying item in cart
+2019-02-21 20:05:27 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-21 20:05:27 INFO  Login:49 - Removing Cart Item
+2019-02-21 20:05:27 INFO  Login:49 - Item Removed Successfully
+2019-02-21 20:05:27 INFO  Login:49 - Closeing Cart Window
+2019-02-21 20:05:28 INFO  Login:49 - Clicking on logout button
+2019-02-21 20:05:31 INFO  Login:49 - Logged out successfully
+2019-02-21 20:05:32 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-21 20:05:32 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-21 20:05:45 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-21 20:05:47 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-21 20:05:52 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-21 20:05:52 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-21 20:05:53 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-21 20:06:08 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-21 20:06:08 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-21 20:06:08 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-21 20:06:08 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-21 20:06:08 INFO  CustomListener:49 - 
+2019-02-21 20:06:10 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-21 20:06:10 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-21 20:06:18 INFO  Registration:49 - INFO: Maximizing window
+2019-02-21 20:06:20 INFO  Registration:49 - Clicking Register link
+2019-02-21 20:06:25 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-21 20:06:26 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-21 20:06:28 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-21 20:06:29 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-21 20:06:31 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-21 20:06:32 INFO  Registration:49 - Click to register the user
+2019-02-21 20:06:43 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-21 20:06:44 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-21 20:07:16 INFO  TraversePages:49 - Clicking on logout button
+2019-02-21 20:07:20 INFO  TraversePages:49 - Logged out successfully
+2019-02-21 20:07:22 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":6956}
+2019-02-27 19:41:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-27 19:41:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-27 19:41:09 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-27 19:41:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-27 19:41:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-27 19:41:10 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-27 19:41:10 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-27 19:41:11 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-27 19:41:11 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-27 19:41:25 INFO  Login:49 - INFO: Maximizing window 
+2019-02-27 19:41:26 INFO  Login:49 - INFO: Clicking login link 
+2019-02-27 19:41:27 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-27 19:41:27 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-27 19:41:27 INFO  Login:49 - INFO: Clicking login button
+2019-02-27 19:41:29 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-27 19:41:29 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-27 19:41:29 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-27 19:41:35 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-27 19:41:41 INFO  Login:49 - Verifying account updation
+2019-02-27 19:41:41 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-27 19:41:41 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-27 19:41:41 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-27 19:41:47 INFO  Login:49 - Clicking on Sauce
+2019-02-27 19:41:56 INFO  Login:49 - Clicking on buy button
+2019-02-27 19:42:01 INFO  Login:49 - Checking cart item
+2019-02-27 19:42:07 INFO  Login:49 - Verifying item in cart
+2019-02-27 19:42:09 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-27 19:42:09 INFO  Login:49 - Removing Cart Item
+2019-02-27 19:42:14 INFO  Login:49 - Item Removed Successfully
+2019-02-27 19:42:14 INFO  Login:49 - Closeing Cart Window
+2019-02-27 19:42:15 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-27 19:42:15 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-27 19:42:15 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-27 19:42:15 INFO  CustomListener:49 - 
+2019-02-27 19:42:17 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-27 19:42:17 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-27 19:42:21 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-27 19:42:21 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-27 19:42:21 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-27 19:42:21 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-27 19:42:21 INFO  CustomListener:49 - 
+2019-02-27 19:42:22 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-27 19:42:22 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-27 19:42:26 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-27 19:42:26 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-27 19:42:26 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-27 19:42:26 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-27 19:42:26 INFO  CustomListener:49 - 
+2019-02-27 19:42:31 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-27 19:42:31 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-27 19:42:31 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-27 19:42:31 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-27 19:42:31 INFO  CustomListener:49 - 
+2019-02-27 19:42:33 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7024}
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-27 19:45:43 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-27 19:45:44 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-27 19:45:44 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-27 19:45:50 INFO  Login:49 - INFO: Maximizing window 
+2019-02-27 19:45:51 INFO  Login:49 - INFO: Clicking login link 
+2019-02-27 19:45:53 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-27 19:45:53 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-27 19:45:53 INFO  Login:49 - INFO: Clicking login button
+2019-02-27 19:46:04 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-27 19:46:04 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-27 19:46:05 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-27 19:46:05 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-27 19:46:05 INFO  CustomListener:49 - 
+2019-02-27 19:46:06 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-27 19:46:06 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-27 19:46:10 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-27 19:46:11 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-27 19:46:12 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-27 19:46:12 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-27 19:46:12 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-27 19:46:23 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-27 19:46:23 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-27 19:46:24 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-27 19:46:24 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-27 19:46:24 INFO  CustomListener:49 - 
+2019-02-27 19:46:25 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-27 19:46:25 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-27 19:46:29 INFO  Registration:49 - INFO: Maximizing window
+2019-02-27 19:46:30 INFO  Registration:49 - Clicking Register link
+2019-02-27 19:46:31 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-27 19:46:32 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-27 19:46:33 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-27 19:46:34 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-27 19:46:35 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-27 19:46:36 INFO  Registration:49 - Click to register the user
+2019-02-27 19:46:42 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-27 19:46:43 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-27 19:47:04 INFO  TraversePages:49 - Clicking on logout button
+2019-02-27 19:47:05 INFO  TraversePages:49 - Logged out successfully
+2019-02-27 19:47:06 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7025}
+2019-02-27 19:52:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-27 19:52:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-27 19:52:15 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-27 19:52:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-27 19:52:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-27 19:52:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-27 19:52:16 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-27 19:52:17 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-27 19:52:17 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-27 19:52:22 INFO  Login:49 - INFO: Maximizing window 
+2019-02-27 19:52:23 INFO  Login:49 - INFO: Clicking login link 
+2019-02-27 19:52:24 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-27 19:52:24 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-27 19:52:24 INFO  Login:49 - INFO: Clicking login button
+2019-02-27 19:52:25 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-27 19:52:25 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-27 19:52:25 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-27 19:52:26 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-27 19:52:26 INFO  Login:49 - Verifying account updation
+2019-02-27 19:52:27 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-27 19:52:27 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-27 19:52:27 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-27 19:52:28 INFO  Login:49 - Clicking on Sauce
+2019-02-27 19:52:33 INFO  Login:49 - Clicking on buy button
+2019-02-27 19:52:33 INFO  Login:49 - Checking cart item
+2019-02-27 19:52:34 INFO  Login:49 - Verifying item in cart
+2019-02-27 19:52:36 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-27 19:52:36 INFO  Login:49 - Removing Cart Item
+2019-02-27 19:52:36 INFO  Login:49 - Item Removed Successfully
+2019-02-27 19:52:36 INFO  Login:49 - Closeing Cart Window
+2019-02-27 19:52:36 INFO  Login:49 - Clicking on logout button
+2019-02-27 19:52:37 INFO  Login:49 - Logged out successfully
+2019-02-27 19:52:38 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-27 19:52:38 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-27 19:52:43 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-27 19:52:44 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-27 19:52:45 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-27 19:52:45 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-27 19:52:45 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-27 19:52:56 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-27 19:52:58 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-27 19:52:58 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-27 19:53:03 INFO  Registration:49 - INFO: Maximizing window
+2019-02-27 19:53:04 INFO  Registration:49 - Clicking Register link
+2019-02-27 19:53:05 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-27 19:53:06 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-27 19:53:07 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-27 19:53:08 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-27 19:53:09 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-27 19:53:10 INFO  Registration:49 - Click to register the user
+2019-02-27 19:53:15 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-27 19:53:16 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-27 19:53:36 INFO  TraversePages:49 - Clicking on logout button
+2019-02-27 19:53:37 INFO  TraversePages:49 - Logged out successfully
+2019-02-27 19:53:38 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7027}
+2019-02-28 11:37:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-28 11:37:47 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-28 11:37:47 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-28 11:37:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-28 11:37:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-28 11:37:48 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-28 11:37:48 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-28 11:37:50 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-28 11:37:50 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 11:38:01 INFO  Login:49 - INFO: Maximizing window 
+2019-02-28 11:38:02 INFO  Login:49 - INFO: Clicking login link 
+2019-02-28 11:38:03 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-28 11:38:03 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-28 11:38:03 INFO  Login:49 - INFO: Clicking login button
+2019-02-28 11:38:04 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-28 11:38:04 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 11:38:04 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-28 11:38:05 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-28 11:38:06 INFO  Login:49 - Verifying account updation
+2019-02-28 11:38:06 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-28 11:38:06 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-28 11:38:06 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-28 11:38:07 INFO  Login:49 - Clicking on Sauce
+2019-02-28 11:38:11 INFO  Login:49 - Clicking on buy button
+2019-02-28 11:38:11 INFO  Login:49 - Checking cart item
+2019-02-28 11:38:12 INFO  Login:49 - Verifying item in cart
+2019-02-28 11:38:14 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-28 11:38:14 INFO  Login:49 - Removing Cart Item
+2019-02-28 11:38:14 INFO  Login:49 - Item Removed Successfully
+2019-02-28 11:38:14 INFO  Login:49 - Closeing Cart Window
+2019-02-28 11:38:14 INFO  Login:49 - Clicking on logout button
+2019-02-28 11:38:15 INFO  Login:49 - Logged out successfully
+2019-02-28 11:38:16 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-28 11:38:16 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 11:38:20 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-28 11:38:21 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-28 11:38:22 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-28 11:38:22 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-28 11:38:22 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-28 11:38:33 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-28 11:38:35 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-28 11:38:35 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-28 11:38:39 INFO  Registration:49 - INFO: Maximizing window
+2019-02-28 11:38:40 INFO  Registration:49 - Clicking Register link
+2019-02-28 11:38:41 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-28 11:38:42 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-28 11:38:43 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-28 11:38:44 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-28 11:38:45 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-28 11:38:46 INFO  Registration:49 - Click to register the user
+2019-02-28 11:38:52 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-28 11:38:53 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-28 11:39:14 INFO  TraversePages:49 - Clicking on logout button
+2019-02-28 11:39:15 INFO  TraversePages:49 - Logged out successfully
+2019-02-28 11:39:16 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7030}
+2019-02-28 11:48:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-28 11:48:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-28 11:48:41 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-28 11:48:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-28 11:48:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-28 11:48:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-28 11:48:42 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-28 11:48:44 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-28 11:48:44 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 11:48:49 INFO  Login:49 - INFO: Maximizing window 
+2019-02-28 11:48:50 INFO  Login:49 - INFO: Clicking login link 
+2019-02-28 11:48:51 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-28 11:48:51 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-28 11:48:51 INFO  Login:49 - INFO: Clicking login button
+2019-02-28 11:48:52 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-28 11:48:52 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 11:48:52 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-28 11:48:53 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-28 11:48:53 INFO  Login:49 - Verifying account updation
+2019-02-28 11:48:53 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-28 11:48:53 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-28 11:48:53 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-28 11:48:54 INFO  Login:49 - Clicking on Sauce
+2019-02-28 11:48:59 INFO  Login:49 - Clicking on buy button
+2019-02-28 11:48:59 INFO  Login:49 - Checking cart item
+2019-02-28 11:49:00 INFO  Login:49 - Verifying item in cart
+2019-02-28 11:49:02 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-28 11:49:02 INFO  Login:49 - Removing Cart Item
+2019-02-28 11:49:02 INFO  Login:49 - Item Removed Successfully
+2019-02-28 11:49:02 INFO  Login:49 - Closeing Cart Window
+2019-02-28 11:49:03 INFO  Login:49 - Clicking on logout button
+2019-02-28 11:49:03 INFO  Login:49 - Logged out successfully
+2019-02-28 11:49:05 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-28 11:49:05 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 11:49:09 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-28 11:49:10 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-28 11:49:10 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-28 11:49:11 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-28 11:49:11 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-28 11:49:22 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-28 11:49:23 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-28 11:49:23 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-28 11:49:27 INFO  Registration:49 - INFO: Maximizing window
+2019-02-28 11:49:28 INFO  Registration:49 - Clicking Register link
+2019-02-28 11:49:29 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-28 11:49:30 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-28 11:49:31 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-28 11:49:32 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-28 11:49:33 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-28 11:49:35 INFO  Registration:49 - Click to register the user
+2019-02-28 11:49:40 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-28 11:49:41 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-28 11:50:01 INFO  TraversePages:49 - Clicking on logout button
+2019-02-28 11:50:02 INFO  TraversePages:49 - Logged out successfully
+2019-02-28 11:50:03 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7031}
+2019-02-28 17:56:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-28 17:56:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-28 17:56:37 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-28 17:56:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-28 17:56:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-28 17:56:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-28 17:56:38 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-28 17:56:39 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-28 17:56:39 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 17:56:47 INFO  Login:49 - INFO: Maximizing window 
+2019-02-28 17:56:48 INFO  Login:49 - INFO: Clicking login link 
+2019-02-28 17:56:50 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-28 17:56:50 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-28 17:56:50 INFO  Login:49 - INFO: Clicking login button
+2019-02-28 17:56:51 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-28 17:56:51 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 17:56:51 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-28 17:56:53 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-28 17:56:53 INFO  Login:49 - Verifying account updation
+2019-02-28 17:56:53 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-28 17:56:53 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-28 17:56:53 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-28 17:56:55 INFO  Login:49 - Clicking on Sauce
+2019-02-28 17:56:59 INFO  Login:49 - Clicking on buy button
+2019-02-28 17:57:00 INFO  Login:49 - Checking cart item
+2019-02-28 17:57:01 INFO  Login:49 - Verifying item in cart
+2019-02-28 17:57:03 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-28 17:57:03 INFO  Login:49 - Removing Cart Item
+2019-02-28 17:57:03 INFO  Login:49 - Item Removed Successfully
+2019-02-28 17:57:03 INFO  Login:49 - Closeing Cart Window
+2019-02-28 17:57:03 INFO  Login:49 - Clicking on logout button
+2019-02-28 17:57:03 INFO  Login:49 - Logged out successfully
+2019-02-28 17:57:05 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-28 17:57:05 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 17:57:09 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-28 17:57:10 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-28 17:57:11 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-28 17:57:11 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-28 17:57:11 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-28 17:57:22 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-28 17:57:22 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-28 17:57:23 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-28 17:57:23 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-28 17:57:23 INFO  CustomListener:49 - 
+2019-02-28 17:57:24 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-28 17:57:24 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-28 17:57:29 INFO  Registration:49 - INFO: Maximizing window
+2019-02-28 17:57:30 INFO  Registration:49 - Clicking Register link
+2019-02-28 17:57:31 INFO  VerificationManager:229 - PASS :  Verify click on Register Actual value : Register for an Account is same as Expected value: Register for an Account
+2019-02-28 17:57:31 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-28 17:57:32 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-28 17:57:33 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-28 17:57:34 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-28 17:57:35 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-28 17:57:36 INFO  Registration:49 - Click to register the user
+2019-02-28 17:57:37 INFO  VerificationManager:229 - PASS :  Verify user register button clicked Actual value : That email address is already in use. is same as Expected value: That email address is already in use.
+2019-02-28 17:57:37 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 17:57:42 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-28 17:57:43 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-28 17:57:45 INFO  VerificationManager:229 - PASS :  Verify click on HOME page Actual value : http://10.10.10.232:8080/ is same as Expected value: http://10.10.10.232:8080/
+2019-02-28 17:57:46 INFO  VerificationManager:229 - PASS :  Verify click on Hot Sauces Actual value : Viewing Hot Sauces (1 - 15 of 19) is same as Expected value: Viewing Hot Sauces (1 - 15 of 19)
+2019-02-28 17:57:53 INFO  VerificationManager:229 - PASS :  Verify click on Merchandise Men Actual value : Viewing Mens (1 - 3 of 3) is same as Expected value: Viewing Mens (1 - 3 of 3)
+2019-02-28 17:58:00 ERROR VerificationManager:236 - FAIL : expected [Viewing Womens (1 - 3 of 3)] but found [Viewing Mens (1 - 3 of 3)] Actual value : Viewing Mens (1 - 3 of 3) is not same as Expected value: Viewing Womens (1 - 3 of 3)
+2019-02-28 17:58:03 INFO  TraversePages:49 - Clicking on logout button
+2019-02-28 17:58:04 INFO  TraversePages:49 - Logged out successfully
+2019-02-28 17:58:04 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-28 17:58:04 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-28 17:58:05 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-28 17:58:05 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-28 17:58:05 INFO  CustomListener:49 - 
+2019-02-28 17:58:07 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7066}
+2019-02-28 18:06:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-28 18:06:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-28 18:06:36 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Chrome_71 is: WIN_10_Chrome_71
+2019-02-28 18:06:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-28 18:06:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-28 18:06:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_Chrome_71
+2019-02-28 18:06:38 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_Chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_Chrome_71 -->
+
+2019-02-28 18:06:40 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-28 18:06:40 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 18:06:50 INFO  Login:49 - INFO: Maximizing window 
+2019-02-28 18:06:52 INFO  Login:49 - INFO: Clicking login link 
+2019-02-28 18:06:57 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-28 18:06:57 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-28 18:06:58 INFO  Login:49 - INFO: Clicking login button
+2019-02-28 18:07:04 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-28 18:07:04 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 18:07:04 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-28 18:07:07 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-28 18:07:10 INFO  Login:49 - Verifying account updation
+2019-02-28 18:07:10 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-28 18:07:10 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-28 18:07:10 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-28 18:07:15 INFO  Login:49 - Clicking on Sauce
+2019-02-28 18:07:21 INFO  Login:49 - Clicking on buy button
+2019-02-28 18:07:22 INFO  Login:49 - Checking cart item
+2019-02-28 18:07:23 INFO  Login:49 - Verifying item in cart
+2019-02-28 18:07:26 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-28 18:07:26 INFO  Login:49 - Removing Cart Item
+2019-02-28 18:07:27 INFO  Login:49 - Item Removed Successfully
+2019-02-28 18:07:27 INFO  Login:49 - Closeing Cart Window
+2019-02-28 18:07:27 INFO  Login:49 - Clicking on logout button
+2019-02-28 18:07:30 INFO  Login:49 - Logged out successfully
+2019-02-28 18:07:32 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-28 18:07:32 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 18:07:42 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-28 18:07:45 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-28 18:07:54 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-28 18:07:54 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-28 18:07:55 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-28 18:08:09 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-28 18:08:09 INFO  JIRARestIssueCreation:49 - Creating Bug in JIRA
+2019-02-28 18:08:09 INFO  JIRARestIssueCreation:49 - Cannot Create JIRA Bug Server returned non-OK status: 404 Not Found
+2019-02-28 18:08:09 INFO  JIRARestIssueCreation:49 - Failed to create JIRA Bug null
+2019-02-28 18:08:09 INFO  CustomListener:49 - 
+2019-02-28 18:08:11 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-28 18:08:11 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-28 18:08:19 INFO  Registration:49 - INFO: Maximizing window
+2019-02-28 18:08:20 INFO  Registration:49 - Clicking Register link
+2019-02-28 18:08:26 INFO  VerificationManager:229 - PASS :  Verify click on Register Actual value : Register for an Account is same as Expected value: Register for an Account
+2019-02-28 18:08:26 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-28 18:08:29 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-28 18:08:30 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-28 18:08:32 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-28 18:08:33 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-28 18:08:35 INFO  Registration:49 - Click to register the user
+2019-02-28 18:08:37 INFO  VerificationManager:229 - PASS :  Verify user register button clicked Actual value : That email address is already in use. is same as Expected value: That email address is already in use.
+2019-02-28 18:08:37 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 18:08:46 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-28 18:08:49 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-28 18:08:53 INFO  VerificationManager:229 - PASS :  Verify click on HOME page Actual value : http://10.10.10.232:8080/ is same as Expected value: http://10.10.10.232:8080/
+2019-02-28 18:08:57 INFO  VerificationManager:229 - PASS :  Verify click on Hot Sauces Actual value : Viewing Hot Sauces (1 - 15 of 19) is same as Expected value: Viewing Hot Sauces (1 - 15 of 19)
+2019-02-28 18:09:06 INFO  VerificationManager:229 - PASS :  Verify click on Merchandise Men Actual value : Viewing Mens (1 - 3 of 3) is same as Expected value: Viewing Mens (1 - 3 of 3)
+2019-02-28 18:09:17 INFO  VerificationManager:229 - PASS :  Verify click on Merchandise Woman Actual value : Viewing Womens (1 - 3 of 3) is same as Expected value: Viewing Womens (1 - 3 of 3)
+2019-02-28 18:09:23 INFO  TraversePages:49 - Clicking on logout button
+2019-02-28 18:09:28 INFO  TraversePages:49 - Logged out successfully
+2019-02-28 18:09:30 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7070}
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable HeatClinic is: HeatClinic
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable heatclinic is: heatclinic
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_71 is: WIN_10_chrome_71
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [HeatClinic]
+
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [heatclinic]
+
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: HeatClinic-loginexcel-WIN_10_chrome_71
+2019-02-28 19:36:24 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic-loginexcel-WIN_10_chrome_71">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="71"/>
+  <test name="loginwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Login"/>
+    </classes>
+  </test> <!-- loginwithexceldata -->
+  <test name="loginwithinvalidexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.InvalidLogin"/>
+    </classes>
+  </test> <!-- loginwithinvalidexceldata -->
+  <test name="registerwithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.Registration"/>
+    </classes>
+  </test> <!-- registerwithexceldata -->
+  <test name="traversewithexceldata">
+    <classes>
+      <class name="com.atmecs.testscript.TraversePages"/>
+    </classes>
+  </test> <!-- traversewithexceldata -->
+</suite> <!-- HeatClinic-loginexcel-WIN_10_chrome_71 -->
+
+2019-02-28 19:36:25 INFO  Login:49 - INFO: Reading data from Excel file
+2019-02-28 19:36:25 INFO  Login:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 19:36:29 INFO  Login:49 - INFO: Maximizing window 
+2019-02-28 19:36:30 INFO  Login:49 - INFO: Clicking login link 
+2019-02-28 19:36:30 INFO  Login:49 - INFO: Entering data in email field rajat.gupta@atmecs.com
+2019-02-28 19:36:31 INFO  Login:49 - INFO: Entering data in password field 
+2019-02-28 19:36:31 INFO  Login:49 - INFO: Clicking login button
+2019-02-28 19:36:33 INFO  VerificationManager:229 - PASS :  Verifying username Actual value : Rajat is same as Expected value: Rajat
+2019-02-28 19:36:33 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 19:36:33 INFO  Login:49 - Clicking Account Name Rajat
+2019-02-28 19:36:34 INFO  Login:49 - Clicking on Submit button in Account Information
+2019-02-28 19:36:35 INFO  Login:49 - Verifying account updation
+2019-02-28 19:36:35 INFO  VerificationManager:229 - PASS :  Verifying Account Updation Actual value : Account successfully updated is same as Expected value: Account successfully updated
+2019-02-28 19:36:35 INFO  VerificationManager:307 - PASS : Account updated
+2019-02-28 19:36:35 INFO  Login:49 - Clicking on Hot Sauces Tab
+2019-02-28 19:36:36 INFO  Login:49 - Clicking on Sauce
+2019-02-28 19:36:41 INFO  Login:49 - Clicking on buy button
+2019-02-28 19:36:41 INFO  Login:49 - Checking cart item
+2019-02-28 19:36:42 INFO  Login:49 - Verifying item in cart
+2019-02-28 19:36:44 INFO  VerificationManager:229 - PASS : Cart Item Actual value : Roasted Garlic Hot Sauce is same as Expected value: Roasted Garlic Hot Sauce
+2019-02-28 19:36:44 INFO  Login:49 - Removing Cart Item
+2019-02-28 19:36:44 INFO  Login:49 - Item Removed Successfully
+2019-02-28 19:36:44 INFO  Login:49 - Closeing Cart Window
+2019-02-28 19:36:44 INFO  Login:49 - Clicking on logout button
+2019-02-28 19:36:44 INFO  Login:49 - Logged out successfully
+2019-02-28 19:36:46 INFO  InvalidLogin:49 - INFO: Reading data from Excel file
+2019-02-28 19:36:46 INFO  InvalidLogin:49 - INFO: Opening url http://10.10.10.232:8080/
+2019-02-28 19:36:49 INFO  InvalidLogin:49 - INFO: Maximizing window 
+2019-02-28 19:36:50 INFO  InvalidLogin:49 - INFO: Clicking login link 
+2019-02-28 19:36:51 INFO  InvalidLogin:49 - INFO: Entering invalid email ID in email field tempuser@atmecs.com
+2019-02-28 19:36:51 INFO  InvalidLogin:49 - INFO: Entering data in password field 
+2019-02-28 19:36:51 INFO  InvalidLogin:49 - INFO: Clicking login button
+2019-02-28 19:37:02 INFO  CustomListener:49 - FAIL : Error occured capturing screenshot, refer to error tab for more details
+2019-02-28 19:37:03 INFO  Registration:49 - Reading data from Register data excel file
+2019-02-28 19:37:03 INFO  Registration:49 - OpeningURLhttp://10.10.10.232:8080/
+2019-02-28 19:37:06 INFO  Registration:49 - INFO: Maximizing window
+2019-02-28 19:37:08 INFO  Registration:49 - Clicking Register link
+2019-02-28 19:37:08 INFO  VerificationManager:229 - PASS :  Verify click on Register Actual value : Register for an Account is same as Expected value: Register for an Account
+2019-02-28 19:37:08 INFO  Registration:49 - Entering data in Email fieldrajat.gupta@atmecs.com
+2019-02-28 19:37:09 INFO  Registration:49 - Entering data in First Name fieldRajat
+2019-02-28 19:37:10 INFO  Registration:49 - Entering data in Last Name fieldGupta
+2019-02-28 19:37:11 INFO  Registration:49 - Entering data in Password fieldabcd
+2019-02-28 19:37:12 INFO  Registration:49 - Entering data in Confirm Password fieldabcd
+2019-02-28 19:37:14 INFO  Registration:49 - Click to register the user
+2019-02-28 19:37:14 INFO  VerificationManager:229 - PASS :  Verify user register button clicked Actual value : That email address is already in use. is same as Expected value: That email address is already in use.
+2019-02-28 19:37:14 INFO  VerificationManager:331 - PASS : Account Verified
+2019-02-28 19:37:18 INFO  TraversePages:49 - INFO: Maximizing window 
+2019-02-28 19:37:19 INFO  TraversePages:49 - Clicking on the Home Tab
+2019-02-28 19:37:22 INFO  VerificationManager:229 - PASS :  Verify click on HOME page Actual value : http://10.10.10.232:8080/ is same as Expected value: http://10.10.10.232:8080/
+2019-02-28 19:37:23 INFO  VerificationManager:229 - PASS :  Verify click on Hot Sauces Actual value : Viewing Hot Sauces (1 - 15 of 19) is same as Expected value: Viewing Hot Sauces (1 - 15 of 19)
+2019-02-28 19:37:29 INFO  VerificationManager:229 - PASS :  Verify click on Merchandise Men Actual value : Viewing Mens (1 - 3 of 3) is same as Expected value: Viewing Mens (1 - 3 of 3)
+2019-02-28 19:37:37 INFO  VerificationManager:229 - PASS :  Verify click on Merchandise Woman Actual value : Viewing Womens (1 - 3 of 3) is same as Expected value: Viewing Womens (1 - 3 of 3)
+2019-02-28 19:37:39 INFO  TraversePages:49 - Clicking on logout button
+2019-02-28 19:37:40 INFO  TraversePages:49 - Logged out successfully
+2019-02-28 19:37:41 INFO  TestNGRunner:49 - Response : {"status":"Success","message":"Upload successfully done","runSessionId":7076}
