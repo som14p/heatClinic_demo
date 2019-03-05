@@ -88,7 +88,7 @@ public class TestNGRunner {
 
     public static void uploadTestNGResultsXml() {
         final String uploadUrl = readEnvOrConfigProperty("testreport.uploadurl");
-        String envi=System.getenv("environment");
+        String envi=readEnvOrConfigProperty("environment");
         String testNGResultsXmlFilePath =
                 System.getProperty("user.dir") + File.separator + "test-output" + File.separator
                         + "testng-results.xml";
